@@ -1,0 +1,46 @@
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-flow: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+}
+
+.time-filter {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.legend-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.departures {
+    background-color: orange;
+}
+
+.arrivals {
+    background-color: steelblue;
+}
+
+.balanced {
+    background-color: mediumpurple;
+}
